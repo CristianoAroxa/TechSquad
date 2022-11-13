@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Marcellus&display=swap');
+*{
+    font-family: 'Marcellus', serif;
+    color: #00bce1;
+}
+
+.bg-primary-color {
+    background-color: #050505;
+}
+
+.bg-secondary-color {
+    background-color: #00bce1;
+}
+
+.primary-color {
+    color: #00bce1;
+}
+
+.secondary-color {
+    color: #050505;
+}
+
+/*Navbar*/
+#navbar {
+    border-bottom: 1px solid #7a7a7a;
+}
+
+#navbar a:hover {
+    color: #f5f5f5;
+}
+
+#navbar a.active {
+    color: #7a7a7a;
+    border-bottom: 1px solid #7a7a7a;
+}
+
+.navbar-brand {
+    display: flex;
+}
+
+.navbar-brand img {
+    width: 75px;
+}
+
+.navbar-brand span{
+    font-weight: 400;
+    font-size: 1.2em;
+    margin-left: 0.3em;
+}
+
+#navbar-items .navbar-nav {
+    display: flex;
+    justify-content: right;
+    width: 100%;
+    padding: auto;
+}
+
+#navbar-items nav.item {
+    margin: 0 1em;
+}
+
+#img-centro {
+    width: 400px;
+    height: 300px;
+    padding-top: 5px;
+}
+
+#img-ods {
+    width: 400px;
+    height: 300px;
+    padding-top: 5px;
+}
+
+#title-cards {
+    padding-bottom: 5px;    
+}
+
+#mini-banners {
+    padding-top: 10px;
+}
+
+.img-thumbnail {
+    height: 300px;
+}
+
+#footer {
+    padding: 0.5em;
+}
+
+.subtitle {
+    text-align: justify;
+}
+
+#social-icons {
+    text-align: right;
+}
+
+#social-icons i {
+    margin-right: 1em;
+    font-size: 1.3em;
+
+}

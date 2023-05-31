@@ -1,4 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Marcellus&display=swap');
+body{
+    background: linear-gradient(90deg, #7878ff, #952b95);
+}
+
 *{
     font-family: 'Marcellus', serif;
     color: #00bce1;
@@ -83,6 +87,11 @@
     height: 300px;
 }
 
+.img-thumbnail:hover{
+    opacity: 0.8;
+    transform: scale(1.2);
+}
+
 #footer {
     padding: 0.5em;
 }
@@ -98,5 +107,14 @@
 #social-icons i {
     margin-right: 1em;
     font-size: 1.3em;
+}
 
+.link a img {
+    filter: brightness(.8);
+    margin: 7px;  
+}
+
+.link a img:hover{
+    filter: brightness(1);
+    transform: scale(1.15);
 }
